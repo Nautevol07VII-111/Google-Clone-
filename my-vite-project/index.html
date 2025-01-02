@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Clone</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script async src="https://cse.google.com/cse.js?cx=c05542608d84241c0">
+        </script>
+        <div class="gcse-search"></div>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="greyLink" href="#add_a_link">
+                    <p>About</p>
+                </a>
+                <a class="greyLink" href="#add_a_link">
+                    <p>Store</p>
+                </a>
+            </nav>
+            <section>
+                <a class="whiteLink" href="#add_a_link">
+                    <p>Gmail</p>
+                </a>
+                <a class="whiteLink" href="#add_a_link">
+                    <p>Images</p>
+                </a>
+                <a href="#apps" class="appsIcon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <circle cx="4" cy="4" r="2"></circle>
+                        <circle cx="12" cy="4" r="2"></circle>
+                        <circle cx="20" cy="4" r="2"></circle>
+                        <circle cx="4" cy="12" r="2"></circle>
+                        <circle cx="12" cy="12" r="2"></circle>
+                        <circle cx="20" cy="12" r="2"></circle>
+                        <circle cx="4" cy="20" r="2"></circle>
+                        <circle cx="12" cy="20" r="2"></circle>
+                        <circle cx="20" cy="20" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="#profile" class="profileIcon">
+                  <img src="./assets/JapaneseChillerMonkey.png" alt="Profile photo" class="profilePhoto">
+                </a>
+            </section>
+        </header>
+        <main>
+            <div>
+                <h1 class="headerText">Google?</h1>
+            </div>
+            <div class="searchBar">
+                <div>Search</div>
+                <input />
+                <div class="searchIcons">
+                    <button class="iconButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M10 2a8 8 0 1 0 5.293 14.293l5.292 5.293 1.414-1.414-5.293-5.292A8 8 0 0 0 10 2zM4 10a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"></path>
+                        </svg>
+                    </button>
+                    <button class="iconButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 1a4 4 0 0 1 4 4v7a4 4 0 0 1-8 0V5a4 4 0 0 1 4-4zm0-1a5 5 0 0 0-5 5v7a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5zm5 11a7.9 7.9 0 0 1-2 4.56v.44a2 2 0 0 1-4 0v-.44A7.9 7.9 0 0 1 7 11h10z"></path>
+                        </svg>
+                    </button>
+                    <button class="iconButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20 5h-2.586L14.707 2.293A1 1 0 0 0 14 2H6a1 1 0 0 0-1 1v18a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a2 2 0 0 0-1-2zM6 4h7.586L16 6.414V20H6V4zm13 15h-2v-3h2v3z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="searchButtonsContainer">
+                <button>
+                    <p>Google Search</p>
+                </button>
+                <button>
+                    <p>I'm Feeling Lucky</p>
+                </button>
+            </div>
+            <div class="languageContainer">
+                <p>Google offered in: <span>Maori</span></p>
+            </div>
+        </main>
+        <footer>
+            <section>
+                <p>Brooklyn</p>
+            </section>
+            <section>
+                <div>
+                    <a>Privacy</a>
+                    <a>Terms</a>
+                    <a>Settings</a>
+                </div>
+            </section>
+        </footer>
+        <script src="search.js"></script>
+    </body>
+</html>

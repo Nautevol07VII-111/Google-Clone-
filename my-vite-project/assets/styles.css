@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #7ec7d1;
+    color: blanchedalmond;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav,
+section {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.appsIcon {
+    color: white;
+    cursor: pointer;
+}
+
+.appsIcon:hover {
+    color: #ffeb3b;
+}
+
+.whiteLink {
+    color: white;
+}
+
+.greyLink {
+    color: lightgrey;
+}
+
+a {
+    text-decoration: unset;
+    font-size: 0.8em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 14px;
+}
+
+.headerText {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), 
+                 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.searchBar {
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 14px;
+    border: 1px solid grey;
+    padding: 14px;
+    border-radius: 24px;
+    background: #334155;
+}
+
+.searchBar:hover {
+    border-color: transparent;
+    background: #1e293b;
+}
+
+input {
+    background: transparent;
+    outline: none;
+    border: unset;
+    color: white;
+    flex: 1;
+}
+
+.searchIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.iconButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: blanchedalmond;
+}
+
+.iconButton:hover {
+    color: #ffeb3b;
+}
+
+.searchButtonsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.searchButtonsContainer button {
+    background: #334155;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.searchButtonsContainer button:hover {
+    background: #1e293b;
+}
+
+.languageContainer {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.languageContainer span {
+    color: #ffeb3b;
+    font-weight: bold;
+}
+
+footer {
+    padding: 14px;
+    background: #334155;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section {
+    display: flex;
+    gap: 10px;
+}
+
+footer a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.profileIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+  
+  .profilePhoto {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .profilePhoto:hover {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+  }
